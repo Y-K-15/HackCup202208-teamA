@@ -54,7 +54,7 @@ body {
 
 .swiper img {
   width: 100%;
-  height: 560px;
+  height: auto;
 }
 
 .p-swiper__container {
@@ -101,6 +101,7 @@ body {
 .p-intro ul {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .p-intro li {
@@ -114,6 +115,38 @@ body {
 
 .p-intro img {
   max-width: 250px;
+  width: 100%;
   height: 250px;
   border-radius: 50%;
 }
+
+@media screen and (max-width:960px){
+
+  .p-swiper__container__label {
+    margin-bottom: 40px;
+  }
+  .p-header__inner__toggle-menu-button {
+    display: block;
+  }
+
+  .p-intro ul {
+    justify-content: space-around;
+  }
+
+  .p-intro li {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:520px){
+
+  .p-intro {
+    margin-top: 20px;
+  }
+
+  .p-intro img {
+    max-width: 200px;
+    height: 200px;
+  }
+}
+
