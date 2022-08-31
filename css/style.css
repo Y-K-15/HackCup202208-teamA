@@ -146,6 +146,9 @@ body {
     text-align: center;
   }
 
+  .p-header__inner__site-menu li {
+    border: none;
+  }
   .p-header__inner__site-menu li:first-child {
     margin-bottom: 20px;
   }
@@ -190,6 +193,11 @@ body {
   .p-header__inner {
     height: 60px;
   }
+
+  .p-header__inner__site-menu a {
+    font-size: 20px;
+  }
+
 
   .p-swiper__container__label::before,
   .p-swiper__container__label::after {
