@@ -1,0 +1,53 @@
+body {
+  font-family: "Hina Mincho", sans-serif;
+}
+
+.p-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: #a8d8b9;
+  color: #3a3226;
+}
+
+.p-header__inner__toggle-menu-button {
+  display: none;
+}
+
+.p-header__inner a {
+  font-size: 32px;
+}
+
+.p-header__inner__site-menu ul {
+  display: flex;
+}
+
+.p-header__inner__site-menu li {
+  border-left: 2px solid #3a3226;
+}
+
+.p-header__inner__site-menu a {
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+.p-intro {
+  width: 1400px;
+  max-width: 90%;
+  margin: 80px auto 80px;
+}
+
+.p-intro ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-intro img {
+  max-width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
